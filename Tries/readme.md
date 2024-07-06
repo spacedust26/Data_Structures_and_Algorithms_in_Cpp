@@ -12,3 +12,4 @@ Trie is made up of nodes and edges. Each node in a Trie has a data that represen
 - Auto-correct systems
 
 ## Pictorial Representation
+![Trie](https://github.com/spacedust26/Data_Structures_and_Algorithms_in_Cpp/assets/144557094/90fcce9a-cb3a-47ab-a405-b3433a1bc621)

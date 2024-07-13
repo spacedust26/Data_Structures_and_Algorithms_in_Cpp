@@ -1,8 +1,8 @@
 //Implementation Of Trie - add string, search string, delete string
-//Time complexity and Space complexity Analysis
-//Insertion of a string - TC: O() SC: O()
-//Searching of a string - TC: O() SC: O()
-//Deletion of a string - TC: O() SC: O()
+//Time complexity and Space complexity Analysis L - length of the string
+//Insertion of a string - TC: O(L) SC: O(L)
+//Searching of a string - TC: O(L) SC: O(L)
+//Deletion of a string - TC: O(L) SC: O(L)
 
 #include<iostream>
 using namespace std;

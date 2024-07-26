@@ -3,6 +3,7 @@
 
 #include<iostream>
 using namespace std;
+int c = 0;
 
 //merge
 void merge(int *arr, int s, int e){
@@ -28,6 +29,11 @@ void merge(int *arr, int s, int e){
       arr[arrIndex++] = first[index1++];
     }else{
       arr[arrIndex++] = second[index2++];
+      c += len1 - index1;
+      for (int i = index1; i < len1; i++) {
+        printf("Inversion pair: (%d, %d)\n", first[i], second[index2-1]);
+      }
+      printf("Round done\n");
     }
   }
 
@@ -72,4 +78,5 @@ int main(){
   }
   mergeSort(arr,0,n-1);
   print(arr,n);
+  printf("Count of inversions: %d", c);
 }
